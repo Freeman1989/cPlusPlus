@@ -7,6 +7,7 @@ class Teacher
 public:
     Teacher(string name = "Jim", int age = 1);
     Teacher(const Teacher & tea);
+    ~Teacher();
     void setName(string name);
     string getName();
     void setAge(int age);

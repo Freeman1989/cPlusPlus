@@ -10,6 +10,11 @@ Teacher::Teacher(const Teacher &tea)
     cout << "Teacher(const Teacher &tea)" << endl;
 }
 
+Teacher::~Teacher()
+{
+    cout << "~Teacher()" << endl;
+}
+
 //int Teacher::getMax()
 //{
 //    return m_iMax;
